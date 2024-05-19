@@ -1,10 +1,10 @@
-version: "3"
 services:
   windows:
     image: dockurr/windows
     container_name: windows
     environment:
       VERSION: "win10"
+      RAM_SIZE: "8G"
     devices:
       - /dev/kvm
     cap_add:
