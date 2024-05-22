@@ -6,7 +6,7 @@ services:
       VERSION: "win10"
       RAM_SIZE: "8G"
       USERNAME: "RandomHooman12"
-      PASSWORD: "password"
+      PASSWORD: "@Password123456"
     devices:
       - /dev/kvm
     cap_add:
