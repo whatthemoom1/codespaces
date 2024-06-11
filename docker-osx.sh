@@ -3,7 +3,7 @@ docker run -i \
     -p 50922:10022 \
     -p 5999:5999 \
     -v /tmp/mac_hdd_ng.img:/home/arch/OSX-KVM/mac_hdd_ng.img \
-    -e RAM=4 \
+    -e RAM=8 \
     -e SMP=4 \
     -e GENERATE_UNIQUE=true \
     -e CPU='Haswell-noTSX' \
